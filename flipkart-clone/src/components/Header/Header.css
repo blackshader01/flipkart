@@ -1,0 +1,14 @@
+.headerParent{
+    width: 100vw;
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+}
+.headerChild{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerLogo{
+    margin-top: 15px;
+}
