@@ -3,7 +3,7 @@ import './category.css'
 
 export default function Category() {
   return (
-    <div className='row'>
+    <div className=''>
       <div className="category">
         <div className="single-category">
         <img class="category-image" alt="Grocery" src="https://rukminim1.flixcart.com/flap/70/70/image/29327f40e9c4d26b.png?q=100"/>
