@@ -3,11 +3,13 @@
     position: fixed;
     z-index: 999;
     background-color: #fff;
-}
+   
 .headerChild{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 14px;
+}
 }
 .headerLogo , .searchBar{
     margin-top: 15px;

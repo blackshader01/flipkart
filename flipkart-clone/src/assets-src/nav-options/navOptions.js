@@ -3,7 +3,7 @@ import './navOptions.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function NavOptions(props) {
+export default function NavOptions() {
     return(
         <div className=" nav-options d-flex align-items-center justify-content-between ml-5  p-3">
       {/* Login */}
