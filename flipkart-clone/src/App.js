@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header';
 import Category from './components/category/category';
 import ImageSlider from './components/image-slider/imageSlider';
+import Electronics from './components/electronics/electronics';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
      <Header/>
      <Category/>
      <ImageSlider/>
+     <Electronics/>
     </div>
   );
 }
