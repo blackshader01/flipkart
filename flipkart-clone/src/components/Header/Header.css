@@ -9,6 +9,9 @@
     justify-content: space-between;
     align-items: center;
 }
-.headerLogo{
+.headerLogo , .searchBar{
     margin-top: 15px;
+}
+.navOptions{
+    margin-top: 10px;
 }

@@ -1,0 +1,19 @@
+.nav-options{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-options {
+    gap: 5rem; /* default gap for larger screens */
+}
+
+@media (max-width: 767px) {
+    .nav-options {
+        gap: 4rem; /* smaller gap for small screens (xs, sm) */
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-options {
+        gap: 3rem; /* even smaller gap for extra small screens */
+    }
+}
