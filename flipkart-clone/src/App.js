@@ -5,6 +5,7 @@ import Category from './components/category/category';
 import ImageSlider from './components/image-slider/imageSlider';
 import Electronics from './components/electronics/electronics';
 import OtherCategories from './components/other-categories/otherCategories';
+import Banner from './components/banner/banner';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
      <ImageSlider/>
      <Electronics/>
      <OtherCategories/>
+     <Banner/>
     </div>
   );
 }
