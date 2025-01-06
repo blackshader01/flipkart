@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Category from './components/category/category';
 import ImageSlider from './components/image-slider/imageSlider';
 import Electronics from './components/electronics/electronics';
+import OtherCategories from './components/other-categories/otherCategories';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
      <Category/>
      <ImageSlider/>
      <Electronics/>
+     <OtherCategories/>
     </div>
   );
 }

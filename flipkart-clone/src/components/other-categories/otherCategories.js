@@ -1,34 +1,36 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 
-import './electronics.css'
 
-export default function Electronics() {
+export default function OtherCategories() {
     const products = [
-        {
-          title: "Fastrack Smartwatches",
-          price: "From ₹1,399",
-          image: "https://rukminim1.flixcart.com/image/210/210/xif0q/smartwatch/5/v/s/-original-imagxrhetgfuebnn.jpeg?q=80"
-        },
-        {
-          title: "True Wireless Headphones",
-          price: "Grab Now",
-          image: "https://rukminim1.flixcart.com/image/210/210/l58iaa80/headphone/k/z/m/nord-buds-ce-oneplus-original-imagfyk4hyvgg6ze.jpeg?q=80"
-        },
-        {
-          title: "Projector",
-          price: "From ₹6,990",
-          image: "https://rukminim1.flixcart.com/image/210/210/xif0q/projector/q/7/6/i9-pro-10-ei9027-led-projector-egate-original-imah5e3bggu5qcgp.jpeg?q=80"
-        },
-        {
-          title: "Monitors",
-          price: "From ₹7,949",
-          image: "https://rukminim1.flixcart.com/image/210/210/l4x2rgw0/monitor/n/y/y/q24i-20-full-hd-23-8-66eegac3in-lenovo-original-imagfpgxzsk8ef26.jpeg?q=80",
-        },
-      ];
+        
+            {
+              title: "Geared Cycles",
+              price: "Up to 70% Off",
+              image: "https://rukminim1.flixcart.com/image/210/210/l111lzk0/cycle/m/r/e/xc-900-grey-lite-26-15-5-cradiac-21-gear-120-original-imagczuzpxeweczm.jpeg?q=80"
+            },
+            {
+              title: "Remote Control Toys",
+              price: "Up to 80% Off",
+              image: "https://rukminim1.flixcart.com/image/210/210/k0plpjk0/remote-control-toy/9/g/k/4-function-remote-control-high-speed-big-racing-car-toy-funkey-original-imafkg33umd8dy93.jpeg?q=80"
+            },
+            {
+              title: "Best of Action Toys",
+              price: "Up to 70% Off",
+              image: "https://rukminim1.flixcart.com/image/210/210/kzegk280/action-figure/9/v/t/3-30155-mcfarlane-2-5-original-imagbeyyzehpyk2m.jpeg?q=80"
+            },
+            {
+              title: "Gym Essentials",
+              price: "From ₹139",
+              image: "https://rukminim1.flixcart.com/image/210/210/kdbzqfk0/bar/8/h/q/push-up-bar-0-8-long-ankaro-original-imafu9dmvdk3rzvy.jpeg?q=80"
+            }
+          ];
+          
+    
   return (
     <Container className="my-5">
-        <h2 className="mb-4">Best Of Electronics</h2>
+        <h2 className="mb-4">Beauty, Food, Toys &amp; more</h2>
 
        { /* md and lg */}
 
