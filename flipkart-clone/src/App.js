@@ -6,6 +6,7 @@ import ImageSlider from './components/image-slider/imageSlider';
 import Electronics from './components/electronics/electronics';
 import OtherCategories from './components/other-categories/otherCategories';
 import Banner from './components/banner/banner';
+import Footer from './components/footer/footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
      <Electronics/>
      <OtherCategories/>
      <Banner/>
+     <Footer/>
     </div>
   );
 }
