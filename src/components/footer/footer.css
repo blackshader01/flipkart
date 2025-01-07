@@ -1,0 +1,41 @@
+footer h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  footer ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  footer ul li {
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  footer ul li:hover {
+    text-decoration: underline;
+  }
+  
+  footer p {
+    color: #ffffff;
+    font-weight:500 ;
+    font-size: 14px;
+  }
+  
+  footer .list-inline-item {
+    color: #ffffff;
+    font-weight: 500;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  footer .list-inline-item:hover {
+    text-decoration: underline;
+  }
+.last-list h5,h6{
+  color: #878787;
+}  
