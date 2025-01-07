@@ -1,0 +1,20 @@
+.headerParent{
+    width: 100vw;
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+    margin-top: -100px;
+}
+.headerChild{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.headerLogo , .searchBar{
+    margin-top: 15px;
+}
+.navOptions{
+    margin-top: 10px;
+}
